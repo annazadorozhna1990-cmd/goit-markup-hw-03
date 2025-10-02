@@ -105,7 +105,6 @@ img {
 .hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 48px;
 }
 
 .hero {
@@ -122,6 +121,7 @@ img {
   cursor: pointer;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -145,7 +145,17 @@ img {
 }
 
 /* ADVANTAGES */
-
+.advantages {
+position: absolute; 
+width: 1px; 
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0)
+white-space: nowrap;
+border: 0;
+}
 .advantages-titel {
   font-weight: 500;
   font-size: 20px;
