@@ -193,6 +193,13 @@ img {
 /* TEAM */
 
 .team-section {
+  padding: 120px 0 120px 0;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-section {
   background-color: #ffffff;
 }
 .team-section {
@@ -209,6 +216,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 72px;
 }
 
 .team-list-name {
