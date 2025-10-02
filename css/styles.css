@@ -102,10 +102,16 @@ img {
 }
 
 /* HERO */
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin-bottom: 48px;
+}
 
 .hero {
   background-color: #2e2f42;
 }
+
 .hero-paragraph {
   font-weight: 700;
   font-size: 56px;
@@ -114,6 +120,8 @@ img {
   text-align: center;
   color: #fff;
   cursor: pointer;
+  max-width: 496px;
+  margin: 0 auto;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -123,6 +131,13 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-button:hover,
 .hero-button:focus {
