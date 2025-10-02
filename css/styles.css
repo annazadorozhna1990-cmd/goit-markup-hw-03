@@ -163,7 +163,14 @@ img {
 }
 .advantages-list {
   display: flex;
+  gap: 24px;
+}
+.advantages-list-paragraph {
+  margin-right: 24px;
   flex-basis: calc((100% - 72px) / 4);
+}
+.advantages-list-paragraph li:last-child {
+  margin-right: 0;
 }
 .advantages-titel {
   font-weight: 500;
@@ -171,6 +178,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .advantages-text {
   font-weight: 400;
@@ -178,7 +186,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 8px;
 }
 
 /* TEAM */
