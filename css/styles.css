@@ -311,3 +311,7 @@ img {
   max-width: 264px;
   margin-top: 16px;
 }
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
