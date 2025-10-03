@@ -269,6 +269,7 @@ img {
   text-transform: capitalize;
   padding-top: 120px;
   padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-item-image {
   font-weight: 500;
