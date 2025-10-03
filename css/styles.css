@@ -250,12 +250,16 @@ img {
 }
 
 /* PORTFOLIO */
-
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .portfolio-list {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+  border-top: none;
 }
 .text-foto {
   border-top: none;
@@ -270,8 +274,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-bottom: 72px;
 }
 
 .portfolio-item-image {
