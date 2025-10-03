@@ -211,12 +211,10 @@ img {
   gap: 24px;
   justify-content: center;
 }
-.container-icon {
-  padding: 0;
-}
 
 .worker {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-card {
@@ -257,8 +255,13 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
-
+.text-foto {
+  border-top: none;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -268,15 +271,16 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   padding-top: 120px;
-  padding-bottom: 72px;
-  margin-bottom: 72px;
+  padding-bottom: 120px;
 }
+
 .portfolio-item-image {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-item-text {
   font-weight: 400;
@@ -291,13 +295,6 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 .logo-color-footer {
